@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,800;1,200;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Сайт о плавание</title>
+</head>
+<body>
+    <header>
+       <h1> Плавание - как здоровый образ жизни</h1>
+       <img src="img/swimpeople.svg" alt="логотип сайта" width="50px">
+    
+    </header>
+    <main>
+        <section id="name">
+            <nav>
+                <ul >
+                    <li><a class="menu" href="#about">Добро пожаловать в мир плавания</a></li>
+                    <li><a class="menu" href="#articles">Здесь мы расскажем:</a></li>
+                    <li><a class="menu" href="#feedback">Обратная свзяь:</a></li>
+                </ul>
+            </nav>
+        </section >
+        <section id="about">
+            <h2> Добро пожаловать в мир плавания! </h2>
+            <a class="avatar" download=""><img src="img/swum.jpg" alt="Плавающий мальчик">
+            </a>
+            <p>Наша страницa посвящена увлекательному миру плавания. Если вы являетесь страстным пловцом, начинающим познавать этот вид спорта или просто хотите узнать больше о преимуществах плавания, вы находитесь в нужном месте. Мы предоставим вам информацию о технике, здоровье, пользе, недостатках и многом другом.</p>
+             <blockquote>
+                    „Плавание – это не спорт. Плавание – это способ не утонуть.“
+	            <cite>Джордж Карлин</cite>
+            </blockquote>
+            
+        </section>
+        <section id="articles">
+            <h2> Здесь мы расскажем:</h2>        
+            <ol class="menu-articles">
+                <li><a class="decoration" href="article1.html">Что такое плавание?</a></li>
+                <li class="plus"><a class="decoration" href="article2.html">В чем его польза?</a></li>
+                <li><a class="decoration" href="article2.html">Есть ли недостатки?</a></li>
+                <li><a class="decoration" href="article2.html">Противопоказания к занятиям плавания</a></li>
+                <li><a class="decoration" href="article3.html">Открытые тренировки для желающих занятиматься плаванием </a></li>
+            </ol>
+        </section>
+        <section id="feedback">
+            <h2>Обратная связь</h2>
+<form id="contact-form">
+    <div class="form__item">
+        <label for="topic">Тема</label><br>
+        <select name="topic" id="topic">
+            <option value="1">Заказать услугу</option>
+            <option value="2">Оставить отзыв/замечание</option>
+            <option value="3">Предложить соотрудничесвто</option>
+            <option value="4">Другое</option>
+
+        </select>
+    </div>
+    <div class="form__item">
+        <label for="namme">Имя</label><br>
+    <input name="namme" id="namme" type="text" placeholder="Введите имя" required>
+</div>
+
+    <div class="form__item">
+        <label for="email">E-mail</label><br>
+    <input name="email" id="email" type="email" placeholder="Введите E-mail" required>
+</div>
+<div>
+    <label for="telefon">Телефон</label><br>
+    <input type="tel" id="telefon" placeholder="Введите номер телефона" pattern = "7-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+</div>
+<div>
+    <label for="timen">Дата рождения</label><br>
+    <input type="date"  id="timen" placeholder="Дата рождения">
+</div>
+    <div class="form__item">
+        <label for="textarea">Текст сообщения</label><br>
+        <textarea id="textarea" rows="3" placeholder="Введите текст сообщения" required></textarea>
+
+</div>
+    <div class="form__item">
+        <label>
+            <input type="checkbox" name="sogl" value="" required>Согласие с политикой конфиденциальности
+        </label>
+    </div>
+    <div class="form__item">
+        <input type="submit">
+    </div>
+    
+</form>
+        </section>
+    </main>
+    <footer>
+       <p> &copy; Мурашкина Настя, 2023 г.</p>
+       <p>Вы таккже можете найти меня <a target="_blank" href="https://midis.ru/abiturientam/kak-postupit/">здесь:</a></p>             
+       
+       <a target="_blank" href="https://vk.com/sports_swimming"><img src="img/vk.svg" alt="логотип Вконтакте" width="20px"></img></a>
+       <a target="_blank" href="https://t.me/swimpp"><img src="img/telegram.svg" alt="логотип Телеграмм" width="20px"></img></a>
+       <a target="_blank"href="https://web.whatsapp.com"><img src="img/wathsap.svg" alt="логтип Ватсап" width="20px">
+       </img></a>
+       
+    </footer>
+</body>
+</html>
